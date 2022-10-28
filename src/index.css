@@ -1,3 +1,107 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'Circular Std Book', sans-serif;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  /*  background: linear-gradient(115deg, #1a1e2b, #10101a, #1a1e2b, #10101a); */
+  background: #10101a;
+  background-size: 400% 400%;
+  /*  animation: gradient 3s ease-in-out infinite alternate; */
+}
+
+.content__underline::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  width: 50%;
+  height: 1px;
+  background: #c4c4c4;
+  transition: all 0.3s ease;
+}
+
+.content__underline:hover::after {
+  width: 100%;
+}
+
+.landing_page--content::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2%;
+  left: -13%;
+  width: 26rem;
+  height: 26rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../public/images/Dark-white-in-Jacket9.png');
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1) rotate(-25deg);
+}
+.landing_page--content::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 20%;
+  right: -18%;
+  width: 30rem;
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../public/images//Dark-white-in-Basic11.png');
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1) rotate(45deg);
+}
+
+.linear__gradient {
+  animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .landing_page--content::before {
+    left: -30%;
+    width: 36rem;
+    height: 36rem;
+  }
+
+  .landing_page--content::after{
+    bottom: -10%;
+    right: -36%;
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .landing_page--content::before {
+    top: 3%;
+    left: -35%;
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .landing_page--content::after{
+    bottom: 0;
+    right: -60%;
+    width: 30rem;
+    height: 30rem;
+  }
+}
