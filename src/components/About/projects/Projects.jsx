@@ -1,5 +1,6 @@
 import React from 'react';
-
+import { projectData } from '../../../data/projectData';
+import ProjectList from './ProjectList';
 const Projects = () => {
   return (
     <div>
@@ -14,7 +15,15 @@ const Projects = () => {
         </span>
         <small>💼</small>
       </h1>
-      <p className=' mb-48 mt-2 text-base text-gray-100'>Each of my project is unique. Here are few examples.</p>
+      <p className=' mb-36 mt-2 text-base text-gray-100'>
+        Each of my project is unique. Here are few examples.
+      </p>
+      <section className=' p-3 grid grid-cols-1 xl:grid-cols-2'>
+        {/* project map */}
+        {projectData.map((item) => (
+          <ProjectList key={item.id} item={item}/>
+        ))}
+      </section>
     </div>
   );
 };

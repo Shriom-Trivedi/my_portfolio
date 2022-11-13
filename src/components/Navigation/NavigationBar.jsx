@@ -23,14 +23,14 @@ function NavigationBar() {
           >
             <path
               fill='transparent'
-              stroke-width='1.5'
+              strokeWidth='1.5'
               stroke='#c4c4c4'
               d='M 2 2.5 L 57 2.5'
               style={{ userSelect: 'auto' }}
             ></path>
             <path
               fill='transparent'
-              stroke-width='1.5'
+              strokeWidth='1.5'
               stroke='#c4c4c4'
               d='M 2 9.423 L 57 9.423'
               opacity='1'
@@ -38,7 +38,7 @@ function NavigationBar() {
             ></path>
             <path
               fill='transparent'
-              stroke-width='1.5'
+              strokeWidth='1.5'
               stroke='#c4c4c4'
               d='M 2 16.346 L 27 16.346'
               style={{ userSelect: 'auto' }}
