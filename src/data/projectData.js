@@ -1,7 +1,7 @@
 const projectData = [
   {
     id: '1',
-    name: 'SocialX',
+    name: 'Socialx',
     desc: 'A social media platform',
     tech_stack: 'React',
     live_server: '#',
@@ -10,7 +10,7 @@ const projectData = [
   },
   {
     id: '2',
-    name: 'SocialX',
+    name: 'Socialx',
     desc: 'A social media platform',
     tech_stack: 'React',
     live_server: '#',
@@ -19,7 +19,7 @@ const projectData = [
   },
   {
     id: '3',
-    name: 'SocialX',
+    name: 'Socialx',
     desc: 'A social media platform',
     tech_stack: 'React',
     live_server: '#',
@@ -28,7 +28,7 @@ const projectData = [
   },
   {
     id: '4',
-    name: 'SocialX',
+    name: 'Socialx',
     desc: 'A social media platform',
     tech_stack: 'React',
     live_server: '#',
@@ -37,7 +37,7 @@ const projectData = [
   },
   {
     id: '5',
-    name: 'SocialX',
+    name: 'Socialx',
     desc: 'A social media platform',
     tech_stack: 'React',
     live_server: '#',
@@ -46,7 +46,7 @@ const projectData = [
   },
   {
     id: '6',
-    name: 'SocialX',
+    name: 'Socialx',
     desc: 'A social media platform',
     tech_stack: 'React',
     live_server: '#',
@@ -55,7 +55,7 @@ const projectData = [
   },
   {
     id: '7',
-    name: 'SocialX',
+    name: 'Socialx',
     desc: 'A social media platform',
     tech_stack: 'React',
     live_server: '#',

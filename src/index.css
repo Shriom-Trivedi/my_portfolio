@@ -28,6 +28,22 @@ body {
   width: 100%;
 }
 
+.visitlink__underline::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: -0.35rem;
+  left: 0;
+  width: 50%;
+  height: 1px;
+  background: #c4c4c4;
+  transition: all 0.3s ease;
+}
+
+.visitlink__underline:hover::after {
+  width: 100%;
+}
+
 .landing_page--content::before {
   content: '';
   display: block;
