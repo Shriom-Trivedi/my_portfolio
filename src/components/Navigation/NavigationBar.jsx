@@ -3,7 +3,7 @@ import React from 'react';
 function NavigationBar() {
   return (
     <div
-      className='glassmorphic_background--navigation fixed top-[4rem] right-0 left-0 py-3 px-10 flex justify-between items-center w-[80%] ml-auto mr-auto bg-[#2a2a38]
+      className=' glassmorphic_background_navigation fixed top-[4rem] right-0 left-0 py-3 px-10 flex justify-between items-center w-[80%] ml-auto mr-auto bg-[#2a2a38]
       md:w-1/2 md:px-16 md:py-6
       '
     >

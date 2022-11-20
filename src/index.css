@@ -2,6 +2,92 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer {
+  :root {
+    /* --shadow-clr: #212121; */
+    --shadow-clr: #ffffff;
+  }
+
+  .text-shadow {
+    text-shadow: 1px 1px 1px #c6c6c6, 3px 1.5px 0px #dfdfdf;
+  }
+
+  .content__underline::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background: #c4c4c4;
+    transition: all 0.3s ease;
+  }
+
+  .content__underline:hover::after {
+    width: 100%;
+  }
+
+  .visitlink__underline::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: -0.35rem;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background: #c4c4c4;
+    transition: all 0.3s ease;
+  }
+
+  .visitlink__underline:hover::after {
+    width: 100%;
+  }
+
+  .landing_page--content::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2%;
+    left: -13%;
+    width: 26rem;
+    height: 26rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../public/images/Dark-white-in-Jacket9.png');
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) rotate(-25deg);
+  }
+
+  .landing_page--content::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    right: -18%;
+    width: 30rem;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../public/images//Dark-white-in-Basic11.png');
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1) rotate(45deg);
+  }
+
+  .brand_underline--logo::after {
+    content: '';
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 0.5px;
+    background: #bebdbd;
+    transition: all 0.3s ease;
+  }
+}
+
 body {
   font-family: 'Circular Std Book', sans-serif;
   font-size: 1.6rem;
@@ -12,86 +98,12 @@ body {
   /*  animation: gradient 3s ease-in-out infinite alternate; */
 }
 
-.content__underline::after {
-  display: block;
-  content: '';
-  position: absolute;
-  bottom: -1rem;
-  left: 0;
-  width: 50%;
-  height: 1px;
-  background: #c4c4c4;
-  transition: all 0.3s ease;
-}
-
-.content__underline:hover::after {
-  width: 100%;
-}
-
-.visitlink__underline::after {
-  display: block;
-  content: '';
-  position: absolute;
-  bottom: -0.35rem;
-  left: 0;
-  width: 50%;
-  height: 1px;
-  background: #c4c4c4;
-  transition: all 0.3s ease;
-}
-
-.visitlink__underline:hover::after {
-  width: 100%;
-}
-
-.landing_page--content::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 2%;
-  left: -13%;
-  width: 26rem;
-  height: 26rem;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url('../public/images/Dark-white-in-Jacket9.png');
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1) rotate(-25deg);
-}
-.landing_page--content::after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: 20%;
-  right: -18%;
-  width: 30rem;
-  height: 30rem;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url('../public/images//Dark-white-in-Basic11.png');
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1) rotate(45deg);
-}
-
-.glassmorphic_background--navigation {
+.glassmorphic_background_navigation {
   backdrop-filter: blur(96px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(17, 25, 40, 0.75);
   border-radius: 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.125);
-}
-
-.brand_underline--logo::after{
-  content: '';
-  display: block;
-  content: '';
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 100%;
-  height: 0.5px;
-  background: #bebdbd;
-  transition: all 0.3s ease;
 }
 
 .linear__gradient {

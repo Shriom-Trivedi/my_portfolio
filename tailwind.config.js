@@ -10,7 +10,10 @@ module.exports = {
           ...defaultTheme.fontFamily.sans,
         ],
         mark__pro: ['"Mark Pro"', ...defaultTheme.fontFamily.sans],
-        d__din__Condensed: ['"D-DIN Condensed"', ...defaultTheme.fontFamily.sans],
+        d__din__Condensed: [
+          '"D-DIN Condensed"',
+          ...defaultTheme.fontFamily.sans,
+        ],
       },
       keyframes: {
         gradient: {

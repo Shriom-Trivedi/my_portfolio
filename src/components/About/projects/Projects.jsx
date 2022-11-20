@@ -18,7 +18,7 @@ const Projects = () => {
       <p className=' mb-36 mt-2 text-base text-gray-100'>
         Each of my project is unique. Here are few examples.
       </p>
-      <section className=' p-3 grid grid-cols-1 xl:grid-cols-2'>
+      <section className=' p-3 grid grid-cols-1 xl:grid-cols-1 place-items-center'>
         {/* project map */}
         {projectData.map((item) => (
           <ProjectList key={item.id} item={item}/>
