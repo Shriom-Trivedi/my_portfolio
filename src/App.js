@@ -8,8 +8,6 @@ function App() {
       <NavigationPanel />
       <LandingPage />
       <About />
-      {/* Projects Page */}
-      {/* Contact Page */}
     </div>
   );
 }
