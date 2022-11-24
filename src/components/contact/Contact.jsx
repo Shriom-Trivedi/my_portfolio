@@ -18,7 +18,12 @@ const Contact = () => {
         Thanks for stopping by, I’m currently looking to join a new team of
         creative designers and developers. If you think we might be a good fit
         for one another, send me an
-        <a href='mailto:tshriom@gmail.com' rel='noopener' target='_blank' className='ml-2 text-white ease-in hover:text-blue-300 '>
+        <a
+          href='mailto:tshriom@gmail.com'
+          rel='noreferrer'
+          target='_blank'
+          className='ml-2 text-white ease-in hover:text-blue-300 '
+        >
           email 📧
         </a>
         .

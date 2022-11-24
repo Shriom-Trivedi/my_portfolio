@@ -4,14 +4,12 @@ function NavigationBar() {
   return (
     <div
       className=' glassmorphic_background_navigation fixed top-[4rem] right-0 left-0 py-3 px-10 flex justify-between items-center w-[80%] ml-auto mr-auto bg-[#2a2a38]
-      md:w-1/2 md:px-16 md:py-6
+      md:w-1/2 md:px-16 md:py-8
       '
     >
-      <a href='#'>
-        <span className='relative brand_underline--logo font-d__din__Condensed text-gray-300 text-base md:text-xl'>
-          SHRIOM TRIVEDI
-        </span>
-      </a>
+      <span className='relative cursor-pointer brand_underline--logo font-d__din__Condensed text-gray-300 text-base md:text-xl'>
+        SHRIOM TRIVEDI
+      </span>
       <div className=' flex justify-between items-center text-gray-300 font-d__din__Condensed'>
         <span className=' md:text-xl md:block hidden'>MENU</span>
         <button className=' bg-transparent outline-none border-none cursor-pointer'>

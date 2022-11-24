@@ -21,7 +21,7 @@ const Socials = () => {
         <a
           href='https://github.com/Shriom-Trivedi'
           target='_blank'
-          rel='noopener'
+          rel='noreferrer'
           className='flex justify-between items-center text-[#c4c4c4] no-underline font-d__din__Condensed uppercase leading-[90%] tracking-tight text-xl font-thin ease-in-out'
         >
           👾 GitHub
@@ -29,7 +29,7 @@ const Socials = () => {
         <a
           href='https://twitter.com/shriomatic'
           target='_blank'
-          rel='noopener'
+          rel='noreferrer'
           className='flex justify-between items-center text-[#c4c4c4] no-underline font-d__din__Condensed uppercase leading-[90%] tracking-tight text-xl font-thin ease-in-out'
         >
           🐦 Twitter
@@ -45,7 +45,7 @@ const Socials = () => {
         <a
           href='https://www.instagram.com/shriomatic/'
           target='_blank'
-          rel='noopener'
+          rel='noreferrer'
           className='flex justify-between items-center text-[#c4c4c4] no-underline font-d__din__Condensed uppercase leading-[90%] tracking-tight text-xl font-thin ease-in-out'
         >
           📸 Instagram
