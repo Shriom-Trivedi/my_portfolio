@@ -37,7 +37,7 @@ const Socials = () => {
         <a
           href='https://www.linkedin.com/in/tshriom/'
           target='_blank'
-          rel='noopener'
+          rel='noreferrer'
           className='flex justify-between items-center text-[#c4c4c4] no-underline font-d__din__Condensed uppercase leading-[90%] tracking-tight text-xl font-thin ease-in-out'
         >
           💼 LinkedIn
