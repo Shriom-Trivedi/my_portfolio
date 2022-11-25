@@ -25,8 +25,8 @@ const LandingPage = () => {
           </div>
 
           {/* View Projects button */}
-          <div className=' ml-[0.3rem] mt-24 text-gray-300 text-xl inline-block leading-[0%] tracking-[0.1em] relative font-d__din__Condensed cursor-pointer content__underline'>
-            VIEW PROJECTS
+          <div className=' ml-[0.3rem] mt-28 text-gray-300 text-xl inline-block leading-[0%] tracking-[0.1em] relative font-d__din__Condensed cursor-pointer content__underline uppercase'>
+            view projects
           </div>
         </div>
       </div>

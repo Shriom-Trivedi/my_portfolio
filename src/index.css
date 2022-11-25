@@ -8,6 +8,31 @@
     --shadow-clr: #ffffff;
   }
 
+  /* FONTS */
+
+  @font-face {
+    font-family: 'Circular Std Book';
+    src: url('./fonts/CircularStd-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'D-DIN Condensed';
+    src: url('./fonts/D-DINCondensed-Bold.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Mark Pro';
+    src: url('./fonts/MarkPro-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+
   .text-shadow {
     text-shadow: 1px 1px 1px #c6c6c6, 3px 1.5px 0px #dfdfdf;
   }
@@ -48,29 +73,27 @@
     content: '';
     display: block;
     position: absolute;
-    top: 2%;
-    left: -13%;
-    width: 26rem;
-    height: 26rem;
+    top: 2rem;
+    left: -1.5rem;
+    width: 15rem;
+    height: 15rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../public/images/Dark-white-in-Jacket9.png');
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1) rotate(-25deg);
+    background-image: url('../public/images/Dark-white-in-Jacket92.png');
+    transform: rotate(35deg);
   }
 
   .landing_page--content::after {
     content: '';
     display: block;
     position: absolute;
-    bottom: 20%;
-    right: -18%;
-    width: 30rem;
+    bottom: 13rem;
+    right: 0;
+    width: 20rem;
     height: 30rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../public/images//Dark-white-in-Basic11.png');
-    -webkit-transform: scaleX(-1);
+    background-image: url('../public/images//Dark-white-in-Basic112.png');
     transform: scaleX(-1) rotate(45deg);
   }
 
@@ -125,31 +148,13 @@ body {
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   .landing_page--content::before {
-    left: -30%;
-    width: 36rem;
-    height: 36rem;
-  }
-
-  .landing_page--content::after {
-    bottom: -10%;
-    right: -36%;
-    width: 40rem;
-    height: 40rem;
-  }
-}
-
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-  .landing_page--content::before {
-    top: 3%;
-    left: -35%;
-    width: 20rem;
+    width: 10rem;
     height: 20rem;
   }
 
   .landing_page--content::after {
     bottom: 0;
-    right: -60%;
+    right: -2rem;
     width: 30rem;
     height: 30rem;
   }

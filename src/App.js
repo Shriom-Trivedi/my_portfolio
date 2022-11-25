@@ -5,7 +5,7 @@ import NavigationPanel from './components/Navigation/NavigationPanel';
 
 function App() {
   return (
-    <div>
+    <div className=' overflow-x-hidden'>
       <NavigationPanel />
       <LandingPage />
       <About />
