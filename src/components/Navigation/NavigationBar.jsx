@@ -3,11 +3,11 @@ import React from 'react';
 function NavigationBar() {
   return (
     <div
-      className=' glassmorphic_background_navigation fixed top-[4rem] right-0 left-0 py-3 px-10 flex justify-between items-center w-[80%] ml-auto mr-auto bg-[#2a2a38]
+      className=' glassmorphic_background_navigation fixed top-12 sm:top-16 right-0 left-0 py-4 sm:py-3 px-10 flex justify-between items-center w-[85%] sm:w-[80%] ml-auto mr-auto bg-[#2a2a38]
       md:w-1/2 md:px-16 md:py-8
       '
     >
-      <span className='relative cursor-pointer brand_underline--logo font-d__din__Condensed text-gray-300 text-base md:text-xl'>
+      <span className='relative cursor-pointer brand_underline--logo font-d__din__Condensed text-gray-300 text-xs sm:text-base md:text-xl'>
         SHRIOM TRIVEDI
       </span>
       <div className=' flex justify-between items-center text-gray-300 font-d__din__Condensed'>
@@ -18,6 +18,7 @@ function NavigationBar() {
             height='20'
             viewBox='0 0 26 20'
             style={{ userSelect: 'auto' }}
+            className='svg_icon--navigation'
           >
             <path
               fill='transparent'

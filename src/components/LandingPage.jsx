@@ -3,10 +3,10 @@ import React from 'react';
 const LandingPage = () => {
   return (
     <div className='landing_page--content grid grid-cols-12 relative'>
-      <div className='col-start-3 col-end-[14] mt-[15rem]'>
+      <div className='col-start-2 sm:col-start-3 col-end-[14] mt-[15rem]'>
         <div>
           {/* Title */}
-          <div className='text-5xl leading-[110%] tracking-[-0.03em] relative text-white font-mark__pro font-black md:text-[5rem]'>
+          <div className='text-4xl sm:text-5xl leading-[110%] tracking-[-0.03em] relative text-white font-mark__pro font-black md:text-[5rem]'>
             <span>turning ideas into</span>
             <br />
             <span>
@@ -25,12 +25,14 @@ const LandingPage = () => {
           </div>
 
           {/* View Projects button */}
-          <div className=' ml-[0.3rem] mt-28 text-gray-300 text-xl inline-block leading-[0%] tracking-[0.1em] relative font-d__din__Condensed cursor-pointer content__underline uppercase'>
+          <div className=' ml-[0.3rem] mt-28 text-gray-300 text-base sm:text-xl inline-block leading-[0%] tracking-[0.1em] relative font-d__din__Condensed cursor-pointer content__underline uppercase'>
             view projects
           </div>
         </div>
       </div>
-      <div className='col-start-1 col-end-[15] px-[6rem] mt-64 mb-56 text-gray-500'></div>
+      <div className='col-start-1 col-end-[15] px-[6rem] mt-64 mb-56 text-gray-500'>
+        {/* TODO: Add stuff here */}
+      </div>
     </div>
   );
 };

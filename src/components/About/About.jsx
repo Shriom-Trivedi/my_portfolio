@@ -6,7 +6,7 @@ import Projects from './projects/Projects';
 const About = () => {
   return (
     <main className='grid grid-cols-12 relative'>
-      <p className='col-start-2 col-end-12 md:col-end-9 text-[1rem] leading-[120%] text-gray-100 block px-1 md:px-2 lg:px-24 break-words'>
+      <p className='col-start-2 col-end-12 md:col-end-9 text-[1rem] leading-6 tracking-tight sm:tracking-normal text-justify sm:text-left sm:leading-[120%] text-gray-100 block px-1 md:px-2 lg:px-24 break-words'>
         Hello there! 👋, thanks for stopping by. My name is Shri Om Trivedi and
         I am a fullstack developer, passionate about digital products that help
         people experience everyday life, not endure it.
@@ -18,7 +18,7 @@ const About = () => {
         <Contact />
       </div>
       <SectionLayout>
-        <Socials marginTop='32' />
+        <Socials />
       </SectionLayout>
     </main>
   );

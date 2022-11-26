@@ -41,7 +41,7 @@
     display: block;
     content: '';
     position: absolute;
-    bottom: -1rem;
+    bottom: -0.2rem;
     left: 0;
     width: 50%;
     height: 1px;
@@ -158,4 +158,40 @@ body {
     width: 30rem;
     height: 30rem;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .landing_page--content::before {
+    top: 8rem;
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .landing_page--content::after {
+    bottom: 0;
+    top: 30rem;
+    right: -1rem;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .glassmorphic_background_navigation {
+    border-radius: 0.8rem;
+  }
+
+  .svg_icon--navigation {
+    width: 40px;
+  }
+
+  .content__underline::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 50%;
+    height: 1px;
+    background: #c4c4c4;
+    transition: all 0.3s ease;
+  } 
 }
