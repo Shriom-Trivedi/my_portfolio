@@ -6,7 +6,7 @@ const projectData = [
     tech_stack: 'React',
     live_server: '#',
     github_repo: '#',
-    project_img: '/images/projects/socialx-2.jpg',
+    project_img: '/images/projects/webp/socialx-2.webp',
     shades: '#7C3AED',
   },
   {
@@ -16,7 +16,7 @@ const projectData = [
     tech_stack: 'React',
     live_server: '#',
     github_repo: '#',
-    project_img: '/images/projects/smack.jpg',
+    project_img: '/images/projects/webp/smack.webp',
     shades: '#EAB308',
   },
   {
@@ -26,7 +26,7 @@ const projectData = [
     tech_stack: 'React',
     live_server: '#',
     github_repo: '#',
-    project_img: '/images/projects/atithi.jpg',
+    project_img: '/images/projects/webp/atithi.webp',
     shades: '#0D9488',
   },
   {
@@ -36,7 +36,7 @@ const projectData = [
     tech_stack: 'React',
     live_server: '#',
     github_repo: '#',
-    project_img: '/images/projects/covid-ui.jpg',
+    project_img: '/images/projects/webp/covid-ui.webp',
     shades: '#DC2626',
   },
 ];
