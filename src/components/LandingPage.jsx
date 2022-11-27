@@ -6,7 +6,7 @@ const LandingPage = () => {
       <div className='col-start-2 sm:col-start-3 col-end-[14] mt-[15rem]'>
         <div>
           {/* Title */}
-          <div className='text-4xl sm:text-5xl leading-[110%] tracking-[-0.03em] relative text-white font-mark__pro font-black md:text-[5rem]'>
+          <div className='text-[2.7rem] sm:text-5xl leading-[110%] tracking-[-0.03em] relative text-white font-mark__pro font-black md:text-[5rem]'>
             <span>turning ideas into</span>
             <br />
             <span>
