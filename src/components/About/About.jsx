@@ -14,7 +14,7 @@ const About = () => {
       <SectionLayout>
         <Projects />
       </SectionLayout>
-      <div className=' col-start-1 col-end-13 bg-[#050810] py-28 p-3 md:px-28 lg:px-52'>
+      <div className=' col-start-1 col-end-13 bg-[#050810] py-28 p-3 px-5 md:px-28 lg:px-52'>
         <Contact />
       </div>
       <SectionLayout>
