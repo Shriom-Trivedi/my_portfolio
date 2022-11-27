@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='relative brand_underline--logo font-d__din__Condensed uppercase text-sm sm:text-lg text-gray-300 cursor-pointer'>
         Shriom Trivedi
       </div>
-      <span className=' text-[0.6rem] sm:text-xs text-gray-300'>Made with love 💓</span>
+      <span className=' text-[0.6rem] sm:text-xs text-gray-300'>Made with 💓</span>
       <div className='text-sm flex'>
         <span className='cursor-pointer'>
           <GitHub color='gray' size={13} />
